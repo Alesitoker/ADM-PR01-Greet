@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ADM-PR01-Greet</string>
+    <string name="activity_main_lblName">Name</string>
+    <string name="activity_main_lblSurname">Surname</string>
+    <string name="activity_main_btnGreet">Greet</string>
+    <string name="activity_main_btnReset">Reset</string>
+    <string name="main_activity_greet">Hola</string>
+    <string name="main_activity_reset" />
+</resources>
