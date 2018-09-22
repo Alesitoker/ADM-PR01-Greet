@@ -16,7 +16,8 @@
     <EditText
         android:id="@+id/txtName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"/>
     <TextView
         android:id="@+id/lblSurname"
         android:layout_width="wrap_content"
@@ -25,7 +26,13 @@
     <EditText
         android:id="@+id/txtSurname"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+    <CheckBox
+        android:id="@+id/chkPolite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_chkPolite_text"/>
     <Button
         android:id="@+id/btnGreet"
         android:layout_width="wrap_content"
