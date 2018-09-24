@@ -9,7 +9,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText txtName;
     private EditText txtSurname;
@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnGreet.setOnClickListener(this);
         btnReset.setOnClickListener(this);
-        chkPolite.setOnCheckedChangeListener(this);
     }
 
     @Override
@@ -52,10 +51,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             chkPolite.setChecked(false);
 
         }
-    }
-
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-
     }
 }
