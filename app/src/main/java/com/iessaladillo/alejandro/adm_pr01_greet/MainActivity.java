@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 message = getString(R.string.main_activity_polite_greet);
             } else
                 message = getString(R.string.main_activity_impolite_greet);
-            lblGreet.setText(message + " " + txtName.getText() + " " + txtSurname.getText());
+            lblGreet.setText(String.format(message, txtName.getText(), txtSurname.getText()));
         } else {
             lblGreet.setText(R.string.main_activity_reset);
             txtName.setText(R.string.main_activity_reset);

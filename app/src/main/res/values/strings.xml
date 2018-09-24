@@ -4,8 +4,8 @@
     <string name="activity_main_lblSurname">Surname</string>
     <string name="activity_main_btnGreet">Greet</string>
     <string name="activity_main_btnReset">Reset</string>
-    <string name="main_activity_impolite_greet">Hi</string>
-    <string name="main_activity_polite_greet">"It's nice to meet you"</string>
+    <string name="main_activity_impolite_greet">Hi %s %s</string>
+    <string name="main_activity_polite_greet">"It's nice to meet you %s %s"</string>
     <string name="main_activity_reset" />
     <string name="activity_main_chkPolite_text">Politely greet</string>
 </resources>
